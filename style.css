@@ -1,4 +1,149 @@
-html, body {
-  height: 100%;
-  width: 100%;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-color: #fbcbcb;
+}
+
+.navbar {
+  background-color: #a50044;
+  display: flex;
+  justify-content: flex-end;
+  margin: -10px;
+  margin-bottom: 0px;
+  min-height: 80px;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 30px;
+}
+
+.nav-item:hover {
+  background-color: white;
+  color: #80B4D9;
+}
+
+.nav-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  background-image: url('https://cdn.vox-cdn.com/thumbor/TW6wbTfkQCpkFXIqYHte2heEZxI=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/16013556/shutterstock_785442694.jpg');
+  background-position: center center;
+  background-size: cover;
+  min-height: 400px;
+  margin: 0px -10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+section {}
+
+.intro {
+  font-size: 22px;
+  padding: 10%;
+  text-align: center;
+}
+
+.section-header {
+  text-align: center;
+  background-color: #a50044;
+  color: white;
+  font-size: 30px;
+  padding: 30px;
+}
+
+.section-title {}
+
+.recommendation {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.recommendation.reverse {
+  flex-direction: row-reverse;
+}
+
+.img-container {
+  width: 50%;
+  min-height: 400px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.img-container#garden {background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/61/Seethawaka_botanical_garden.jpg');}
+.img-container#beach {background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4b/Platja_de_la_Barceloneta_02.jpg');}
+.img-container#mall {background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/29/La_Maquinista.jpg');}
+.img-container#escalivada {background-image: url('https://thetourguy.com/wp-content/uploads/2021/02/Escalivada-Foods-to-Try-Barcelona-700-x-425.jpeg');}
+.img-container#fideua {background-image: url('https://thetourguy.com/wp-content/uploads/2021/02/Fideua-Foods-to-Try-in-Barcelona-700-x-425.jpeg');}
+.img-container#patatas {background-image: url('https://lacocinadefrabisa.lavozdegalicia.es/wp-content/uploads/2019/05/tortilla-espa%C3%B1ola.jpg');}
+.img-container#wheel {background-image: url('https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/cataluna/camp-nou-barcelona-c-fcbarcelona.jpg');}
+.img-container#ghibli {background-image: url('https://live.staticflickr.com/689/31268165664_e82a0bfeee_b.jpg');}
+.img-container#onsen {background-image: url('https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2017/07/Park-Pools-1024x600.jpg');}
+.img-container#mountain {background-image: url('https://images.theconversation.com/files/404163/original/file-20210603-13-1uni8db.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');}
+
+.recommendation-content {
+  margin: 0px 40px;
+  width: 50%;
+}
+
+.recommendation-title {
+  font-weight: 100;
+  font-size: 1.5rem;
+/*   transform: scaleY(1.5); */
+}
+
+.recommendation-body {
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 2;
+}
+
+.hidden {
+  display: none;
+}
+
+.dashboard {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.dashboard input {
+  width: 25%;
+  border: none;
+  border-bottom: 1px black solid;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.dashboard p {
+  font-size: 18px;
+  
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
 }

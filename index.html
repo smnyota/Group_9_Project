@@ -1,21 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>I Dream of Barcelona</title>
+    <link rel="stylesheet" href="style.css">
+  </head>  
+  <body>
+    <div class="navbar">
+      <div class="nav-item">
+        <a href="#go">Go</a>
+      </div>
+      <div class="nav-item">
+        <a href="#eat">Eat</a>
+      </div>
+      <div class="nav-item">
+        <a href="#do">Do</a>
+      </div>
+    </div>
+    <div class="header">
+      <h1>
+        I Dream of Barcelona...
+      </h1>
+    </div>
+    <div class="container">
+      <section>
+        <p class="intro">
+          Come explore the city of Barcelona, one of Europe's trendiest cities. Barcelona is the hub for new trends in the world of cultures, fashion and cusine. Let's build your dream vacation in Barcelona! Answer each of the questions to get a recommened itinerary. <br/><br/>
+    
+        </p>
+      </section>
+      <section class="go" id="go">
+        <div class="section-header">
+          <h2 class="section-title">Dream Destination</h2>
+        </div>
+        <div class="dashboard">
+          <p>
+            Which of the following vibes is most interesting to you: <b>shopping, plants, or beaches?</b>
+          </p>
+          <input id="go-search" type="text" placeholder="Enter a vibe"/>
+          
+        </div>
+        <div class="recommendation hidden" id="go-1">
+          <div class="img-container" id="garden">
+<!--             <img src="http://img.timeinc.net/time/photoessays/2009/tokyo/tokyo_shinjuku.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Barcelona Botanical Garden
+</h3>
+            <p class="recommendation-body">
+Come explore, Barcelona's Botanical Garden, as its is one of the different tourist destinations that many visitors and tourists who love nature and green plants and flowers are interested in. It is one of the most important and famous tourist attractions in Barcelona and located in the most crowded city of Hegan. </p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="go-2">
+          <div class="img-container" id="beach">
+<!--             <img src="http://japan.apike.ca/sites/default/files/jp_img/tokyo_ueno_zoo/tokyo-ueno-zoo-20060826-15-30-57.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Barceloneta Beach</h3>
+            <p class="recommendation-body">Come explore, Barceloneta Beach, the city's most famous (and traditional) beach. Barceloneta Beach is one of the top travel destinations for a good reason. You'll love the food, the architecture and the overall atmosphere of the city. Besides, Barceloneta beach has a seaside view, which allows you to combine a city holiday with a beach vacation.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="go-3">
+          <div class="img-container" id="mall">
+<!--             <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/La_Maquinista.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">La Maquinista</h3>
+            <p class="recommendation-body">La Maquinista is an open air shopping centre, designed to be an oasis in the middle of an urban area. It's the largest shopping centre in Catalunya, wth 230 shops, and hosts many fashion brands. Leisure activities include 13 cinema screens and there are plenty of food areas to ensure that there's something for everyone. Come explore, La Maquinista Mall and get the best offer in the city. You will find several food and clothing stores in an open space. </p>
+          </div>
+        </div>    
+      </section>
+      <section class="eat" id="eat">
+        <div class="section-header">
+          <h2 class="section-title">Dream Dinner</h2>
+        </div>
+        <div class="dashboard">
+          <p>
+            Which of the following best describes your dinner taste: <b>vegetarian, seafood, or traditional?</b>
+          </p>
+          <input id="eat-search" type="text" placeholder="Enter a type of food"/>
+          
+        </div>
+        <div class="recommendation hidden" id="eat-1">
+          <div class="img-container" id="escalivada">
+<!--             <img src="https://thetourguy.com/wp-content/uploads/2021/02/Escalivada-Foods-to-Try-Barcelona-700-x-425.jpeg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Escalivada</h3>
+            <p class="recommendation-body">“Escalivada” is a typical Catalonian dish which locals often agree on while ordering tapas. Carefully roasted peppers, eggplant, and onions area sliced finely and placed on a large plate. There is plenty of fresh Olive Oil and in some cases a touch of fresh garlic which gives it a kick. Vegetarians may love this dish because it combines rich flavors and smoky flavors derived from roasting them over coal. All the peels are carefully removed so that you don’t have to eat bits of charred vegetable skins.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="eat-2">
+          <div class="img-container" id="fideua">
+<!--             <img src="https://thetourguy.com/wp-content/uploads/2021/02/Fideua-Foods-to-Try-in-Barcelona-700-x-425.jpeg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Fideua</h3>
+            <p class="recommendation-body">Cooked in the same style and pan as the Paella, fideua is can be best described as paella made with pasta instead of rice. While the ingredients used to make fideua can vary from restaurant to  restaurant the final results are always sissifying. The pasta used to make this dish is thin short-cut pasta that is toasted first in the pan to create depth of flavor. Next, it is cooked together with seafood to create a piping hot and crispy pasta experience. Most places finish their Fideua in the oven.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="eat-3">
+          <div class="img-container" id="patatas">
+<!--             <img src="https://lacocinadefrabisa.lavozdegalicia.es/wp-content/uploads/2019/05/tortilla-espa%C3%B1ola.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Tortilla de Patatas</h3>
+            <p class="recommendation-body">Possible the most popular dish in all of Spain is a go-to meal named “tortilla española”. You can find them seemingly at any time of the day or night. A simple yet delicious dish. You combine slowly cooked potato and onion in olive oil. It is then whipped together with eggs and turned into a sort of omelet. Found in almost every restaurant you can order the classic tortilla with or without onion almost everywhere. Sometimes restaurants will have a variety of tortillas made up and the ingredients can vary considerably. Some of the classics though include Chorizo, Zucchini, Spinach and Cheese.</p>
+          </div>
+        </div> 
+      </section>
+      <section class="do" id="do">
+        <div class="section-header">
+          <h2 class="section-title">Dream Activity</h2>
+        </div>
+        <div class="dashboard">
+          <p>
+            Which of the following activities sounds most exciting to you: <b>a soccer game, a museum, the park, or a cathedral?</b>
+          </p>
+          <input id="do-search" type="text" placeholder="Enter an activity"/>
+          
+        </div>
+        <div class="recommendation hidden" id="do-1">
+          <div class="img-container" id="wheel">
+<!--             <img src="https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/cataluna/camp-nou-barcelona-c-fcbarcelona.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Attend a Soccer Game</h3>
+            <p class="recommendation-body">Even if you're not a fútbol (soccer) fan, Camp Nou is worth a visit to experience the pride Catalans have for the FC Barcelona team. Able to hold nearly 100,000 screaming fans, which can be quite intimidating for visiting teams, Camp Nou is the largest stadium in Europe.Expect to enjoy the magic of FC Barcelona top stars. All this surrounded, of course, by thousands of fans around. That’s right. This is the kind of unforgettable experience that Camp Nou offers.</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="do-2">
+          <div class="img-container" id="ghibli">
+<!--             <img src="https://live.staticflickr.com/689/31268165664_e82a0bfeee_b.jpg -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Visit the Maritime Museum Museum</h3>
+            <p class="recommendation-body">The Museu Marítim (Maritime Museum) is certainly one of the most interesting sights in Barcelona. In line with the theme, the museum is housed in the former shipyards of Drassane. The museum is located on the southern edge of the old town and at the end of the Rambla, and has an extensive collection of ships and boats and a large exhibition on the construction of medieval sailing ships.
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+</p>
+            <p class="recommendation-body">The Museu Marítim has a remarkable collection of nautical instruments, which are especially served for navigation. Most instruments are from the period of the 18th to the 20th Century and show the development of the sextant, depth gauge and many other navigational tools.
 
-<body>
-  Hello world
-  <script src="script.js"></script>
+</p>
+          </div>
+        </div>
+        <div class="recommendation hidden" id="do-3">
+          <div class="img-container" id="onsen">
+<!--             <img src="https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2017/07/Park-Pools-1024x600.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Visit Park Güell</h3>
+            <p class="recommendation-body">Parc Güell is a privatized park system composed of gardens and architectural elements located on Carmel Hill, in Barcelona, Catalonia, Spain. Carmel Hill belongs to the mountain range of Collserola – the Parc del Carmel is located on the northern face.Güell and Gaudí conceived this park, situated within a natural park. They imagined an organized grouping of high-quality homes, decked out with all the latest technological advancements to ensure maximum comfort, finished off with an artistic touch. They also envisioned a community strongly influenced by symbolism, since, in the common elements of the park, they were trying to synthesize many of the political and religious ideals shared by patron and architect: therefore there are noticeable concepts originating from political Catalanism – especially in the entrance stairway where the Catalan countries are represented – and from Catholicism – the Monumento al Calvario, originally designed to be a chapel. The mythological elements are so important: apparently Güell and Gaudí's conception of the park was also inspired by the Temple of Apollo of Delphi</p>
+          </div>
+        </div> 
+        <div class="recommendation hidden" id="do-4">
+          <div class="img-container" id="mountain">
+<!--             <img src="https://www.japan-guide.com/g18/3036_05.jpg"/> -->
+          </div>
+          <div class="recommendation-content">
+            <h3 class="recommendation-title">Visit La Sagrada Familia
+</h3>
+            <p class="recommendation-body">The Basílica i Temple Expiatori de la Sagrada Família (Catalan: [bəˈzilikə ðə lə səˈɣɾaðə fəˈmiljə]; Spanish: Basílica de la Sagrada Familia; 'Basilica of the Holy Family'),is a large unfinished church building in the Eixample district of Barcelona, Catalonia, Spain, and is currently the largest unfinished Roman Catholic church. Designed by the Catalan architect Antoni Gaudí (1852–1926), his work on Sagrada Família is part of a UNESCO World Heritage Site.On 7 November 2010, Pope Benedict XVI consecrated the church and proclaimed it a minor basilica.
 
- <!--
-This script places a badge on your repl's full-browser view back to your repl's cover page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green, teal, blue, blurple, magenta, pink!
--->
-<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
-</body>
-
+On 19 March 1882, construction of the Sagrada Família began under architect Francisco de Paula del Villar. In 1883, when Villar resigned,Gaudí took over as chief architect, transforming the project with his architectural and engineering style, combining Gothic and curvilinear Art Nouveau forms. Gaudí devoted the remainder of his life to the project, and he is buried in the crypt. At the time of his death in 1926, less than a quarter of the project was complete.</p>
+          </div>
+        </div> 
+      </section>
+    </div>
+  </body>
+  <script src="script.js" defer></script>
 </html>
