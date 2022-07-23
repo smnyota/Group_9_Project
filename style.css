@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'IBM Plex Sans', sans-serif;
@@ -96,10 +98,10 @@ section {}
 .img-container#escalivada {background-image: url('https://thetourguy.com/wp-content/uploads/2021/02/Escalivada-Foods-to-Try-Barcelona-700-x-425.jpeg');}
 .img-container#fideua {background-image: url('https://thetourguy.com/wp-content/uploads/2021/02/Fideua-Foods-to-Try-in-Barcelona-700-x-425.jpeg');}
 .img-container#patatas {background-image: url('https://lacocinadefrabisa.lavozdegalicia.es/wp-content/uploads/2019/05/tortilla-espa%C3%B1ola.jpg');}
-.img-container#wheel {background-image: url('https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/cataluna/camp-nou-barcelona-c-fcbarcelona.jpg');}
-.img-container#ghibli {background-image: url('https://live.staticflickr.com/689/31268165664_e82a0bfeee_b.jpg');}
-.img-container#onsen {background-image: url('https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2017/07/Park-Pools-1024x600.jpg');}
-.img-container#mountain {background-image: url('https://images.theconversation.com/files/404163/original/file-20210603-13-1uni8db.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');}
+.img-container#soccer {background-image: url('https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/cataluna/camp-nou-barcelona-c-fcbarcelona.jpg');}
+.img-container#museum {background-image: url('https://live.staticflickr.com/689/31268165664_e82a0bfeee_b.jpg');}
+.img-container#park {background-image: url('https://cdn.cheapoguides.com/wp-content/uploads/sites/2/2017/07/Park-Pools-1024x600.jpg');}
+.img-container#cathedral {background-image: url('https://images.theconversation.com/files/404163/original/file-20210603-13-1uni8db.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop');}
 
 .recommendation-content {
   margin: 0px 40px;
