@@ -15,10 +15,10 @@ const fideua = document.querySelector("#eat-2");
 const patatas = document.querySelector("#eat-3");
 
 // Select the do cards
-const wheel = document.querySelector("#do-1");
-const ghibli = document.querySelector("#do-2");
-const onsen = document.querySelector("#do-3");
-const mountain = document.querySelector("#do-4");
+const soccer = document.querySelector("#do-1");
+const museum = document.querySelector("#do-2");
+const park = document.querySelector("#do-3");
+const cathedral = document.querySelector("#do-4");
 
 
 goSearch.addEventListener('input', e => {
@@ -65,16 +65,16 @@ function handleChoice(choice) {
     patatas.classList.remove("hidden")
     return "found!";
   } else if (choice.toLowerCase().includes("soccer")) {
-    wheel.classList.remove("hidden")
+    soccer.classList.remove("hidden")
     return "found!";
   } else if (choice.toLowerCase().includes("museum")) {
-    ghibli.classList.remove("hidden")
+    museum.classList.remove("hidden")
     return "found!";
   } else if (choice.toLowerCase().includes("park")) {
-    onsen.classList.remove("hidden")
+    park.classList.remove("hidden")
     return "found!";
   } else if (choice.toLowerCase().includes("cathedral")) {
-    mountain.classList.remove("hidden")
+    cathedral.classList.remove("hidden")
     return "found!";
   }
 }
